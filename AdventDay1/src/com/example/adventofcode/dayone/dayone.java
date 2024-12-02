@@ -10,7 +10,7 @@ public class dayone {
 
 
     public static void main(String[] args) {
-        List<List<Integer>> data = readFile("AdventDay1/src/com/example/adventofcode/dayone/day1data.txt");
+        List<List<Integer>> data = readFile("Advent/src/com/example/adventofcode/day2data.txt");
         List<Integer> col1 = data.get(0);
         List<Integer> col2 = data.get(1);
         partTwo(col1, col2);
