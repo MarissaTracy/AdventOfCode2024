@@ -127,15 +127,4 @@ public class daytwo {
         return values;
     }
 
-    static int[] stringToInt(String s) {
-        String[] sa = s.split(" ");
-        int[] arr = new int[sa.length];
-
-        // parsing the String argument as a signed decimal
-        // integer object and storing that integer into the array
-        for (int i = 0; i < sa.length; i++) {
-            arr[i] = Integer.parseInt(sa[i]);
-        }
-        return arr;
-    }
 }
