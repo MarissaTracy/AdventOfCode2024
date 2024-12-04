@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82021367-a75a-406a-85fe-40a895d24254" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/day3data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/day3example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/daythree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daytwo/daytwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daytwo/daytwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/day3data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/day3data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/day3example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/day3example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/daythree.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/daythree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +29,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daythree/daythree.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2pbNpcTp8xQIcN28h7MenkAJUBt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,13 +48,19 @@
     "Application.com.example.adventofcode.dayone.dayone.executor": "Run",
     "Application.dayone.dayone.executor": "Run",
     "Application.dayone.executor": "Run",
+    "Application.daythree.executor": "Run",
     "Application.daytwo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/marissatracy/code/AdventOfCode2024/AdventDay1/src/com/example/adventofcode/daythree"
+    "last_opened_file_path": "/Users/marissatracy/code/AdventOfCode2024",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,7 +73,7 @@
       <recent name="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayone" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.daytwo">
+  <component name="RunManager" selected="Application.daythree">
     <configuration name="com.example.adventofcode.dayone.dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayone.dayone" />
       <module name="AdventOfCode2024" />
@@ -72,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayone" />
+    <configuration name="dayone.dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayone.dayone" />
       <module name="AdventOfCode2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.adventofcode.daytwo.*" />
+          <option name="PATTERN" value="dayone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +100,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayone.dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dayone.dayone" />
+    <configuration name="daythree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.daythree.daythree" />
       <module name="AdventOfCode2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dayone.*" />
+          <option name="PATTERN" value="com.example.adventofcode.daythree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="daythree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.daythree.daythree" />
+      <module name="AdventOfCode2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.adventofcode.daythree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,19 +143,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.daythree" />
         <item itemvalue="Application.daytwo" />
         <item itemvalue="Application.com.example.adventofcode.dayone.dayone" />
         <item itemvalue="Application.dayone.dayone" />
-        <item itemvalue="Application.dayone" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-18.0.2-azul-18.0.2.1-249ae16d76d6-97c70d46" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
