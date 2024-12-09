@@ -9,10 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82021367-a75a-406a-85fe-40a895d24254" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/day4data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/day5data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/day5example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/dayfive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode2024/com/example/adventofcode/production/AdventOfCode2024/com/example/adventofcode/daythree/daythree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode2024/com/example/adventofcode/production/AdventOfCode2024/com/example/adventofcode/daythree/daythree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.com.example.adventofcode.dayone.dayone.executor": "Run",
+    "Application.dayfive.executor": "Run",
     "Application.dayfour.executor": "Debug",
     "Application.dayone.dayone.executor": "Run",
     "Application.dayone.executor": "Run",
@@ -74,7 +75,7 @@
       <recent name="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayone" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dayfour">
+  <component name="RunManager" selected="Application.dayfive">
     <configuration name="com.example.adventofcode.dayone.dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayone.dayone" />
       <module name="AdventOfCode2024" />
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayfour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayfour.dayfour" />
+    <configuration name="dayfive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayfive.dayfive" />
       <module name="AdventOfCode2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.adventofcode.dayfour.*" />
+          <option name="PATTERN" value="com.example.adventofcode.dayfive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayone.dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dayone.dayone" />
+    <configuration name="dayfour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayfour.dayfour" />
       <module name="AdventOfCode2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dayone.*" />
+          <option name="PATTERN" value="com.example.adventofcode.dayfour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dayfive" />
         <item itemvalue="Application.dayfour" />
         <item itemvalue="Application.daythree" />
         <item itemvalue="Application.daytwo" />
         <item itemvalue="Application.com.example.adventofcode.dayone.dayone" />
-        <item itemvalue="Application.dayone.dayone" />
       </list>
     </recent_temporary>
   </component>
@@ -197,27 +198,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
-          <line>235</line>
+          <line>237</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
-          <line>203</line>
+          <line>205</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
-          <line>128</line>
+          <line>130</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
-          <line>292</line>
+          <line>294</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
-          <line>399</line>
+          <line>401</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -234,6 +235,11 @@
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
           <line>70</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/dayfive.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
