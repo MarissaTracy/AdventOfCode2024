@@ -9,9 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82021367-a75a-406a-85fe-40a895d24254" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/day5data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/day5example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfive/dayfive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daysix/day6data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daysix/day6example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/daysix/daysix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     "Application.dayfour.executor": "Debug",
     "Application.dayone.dayone.executor": "Run",
     "Application.dayone.executor": "Run",
+    "Application.daysix.executor": "Run",
     "Application.daythree.executor": "Run",
     "Application.daytwo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -63,6 +64,11 @@
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.editor"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,20 +81,7 @@
       <recent name="$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayone" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dayfive">
-    <configuration name="com.example.adventofcode.dayone.dayone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayone.dayone" />
-      <module name="AdventOfCode2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.adventofcode.dayone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.daysix">
     <configuration name="dayfive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.dayfive.dayfive" />
       <module name="AdventOfCode2024" />
@@ -108,6 +101,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.adventofcode.dayfour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="daysix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.adventofcode.daysix.daysix" />
+      <module name="AdventOfCode2024" />
+      <option name="PROGRAM_PARAMETERS" value="-Xmx2g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.adventofcode.daysix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +163,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.dayfive" />
+      <item itemvalue="Application.dayfour" />
+      <item itemvalue="Application.daysix" />
+      <item itemvalue="Application.daythree" />
+      <item itemvalue="Application.daytwo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.daysix" />
         <item itemvalue="Application.dayfive" />
         <item itemvalue="Application.dayfour" />
         <item itemvalue="Application.daythree" />
         <item itemvalue="Application.daytwo" />
-        <item itemvalue="Application.com.example.adventofcode.dayone.dayone" />
       </list>
     </recent_temporary>
   </component>
@@ -191,11 +205,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayone/dayone.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AdventDay1/src/com/example/adventofcode/dayfour/dayfour.java</url>
           <line>237</line>
